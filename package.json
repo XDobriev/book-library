@@ -1,0 +1,22 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Khamza Dobriev",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "eslint": "^9.39.2",
+    "live-server": "^1.2.2",
+    "rollup": "^4.57.0",
+    "rollup-plugin-import-css": "^4.2.0"
+  }
+}
