@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "live-server",
+    "start": "vite",
     "build": "rollup -c --watch"
   },
   "keywords": [
@@ -15,8 +15,11 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^16.0.3",
     "eslint": "^9.39.2",
-    "live-server": "^1.2.2",
     "rollup": "^4.57.0",
-    "rollup-plugin-import-css": "^4.2.0"
+    "rollup-plugin-import-css": "^4.2.0",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "on-change": "^6.0.2"
   }
 }
